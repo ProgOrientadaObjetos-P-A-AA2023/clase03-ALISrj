@@ -21,5 +21,15 @@ public class Ejecutable {
                 hospital.numeroCamas, hospital.presupuesto);
         
         // System.out.println(hospital.nombre + "-" + hospital.numeroCamas);
+        // POR ALEX RAMIREZ
+        Hospital bbva = new Hospital();
+        
+        bbva.nombre = "BBVA";
+        bbva.numeroCamas = 189;
+        bbva.presupuesto = 2121321.2;
+        
+        System.out.printf("%s - %d - %.1f\n", bbva.nombre,
+                bbva.numeroCamas, bbva.presupuesto);
+        
     }
 }
